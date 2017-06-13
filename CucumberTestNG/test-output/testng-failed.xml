@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [cucumberRuns]">
+  <test name="cucumbertests(failed)">
+    <classes>
+      <class name="testRunner.Runnercreation">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- testRunner.Runnercreation -->
+    </classes>
+  </test> <!-- cucumbertests(failed) -->
+</suite> <!-- Failed suite [cucumberRuns] -->
